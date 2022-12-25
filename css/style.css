@@ -1,18 +1,30 @@
 .all_card {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .card_one,
 .card_two,
 .card_three {
-    background-color: Khaki;
     border: 5px solid black;
     width: 300px;
     height: 500px;
     margin-right: 20px;
     border-radius: 10px;
     position: relative;
+}
+
+.card_one {
+    background-color: Khaki;
+}
+
+.card_two {
+    background-color: silver;
+}
+
+.card_three {
+    background-color: goldenrod;
 }
 
 .card_title {
@@ -29,7 +41,7 @@
 
 .card_title_name p {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0;
     margin: 0;
     margin-top: 5px;
@@ -47,6 +59,9 @@
     height: 95%;
     width: 20%;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card_image_name img {
@@ -91,7 +106,7 @@
 
 .card_descrition p {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin: 5px;
     padding: auto;
     margin-top: auto;
@@ -101,38 +116,38 @@
 .card_star_one img,
 .card_star_two img,
 .card_star_three img {
-    width: 50px;
+    width: 70px;
     position: absolute;
     display: flex;
     flex-direction: row;
 }
 
 .one {
-    top: 333px;
+    top: 305px;
     left: 135px;
 }
 
 .two_1 {
-    top: 333px;
+    top: 305px;
     left: 120px;
 }
 
 .two_2 {
-    top: 333px;
+    top: 305px;
     left: 150px;
 }
 
 .three_1 {
-    top: 333px;
+    top: 305px;
     left: 100px;
 }
 
 .three_2 {
-    top: 333px;
+    top: 305px;
     left: 130px;
 }
 
 .three_3 {
-    top: 333px;
+    top: 305px;
     left: 160px;
 }
