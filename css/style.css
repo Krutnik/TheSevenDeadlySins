@@ -1,20 +1,30 @@
-.card {
+.all_card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card_one,
+.card_two,
+.card_three {
+    background-color: Khaki;
     border: 5px solid black;
-    width: 320px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+    position: relative;
 }
 
 .card_title {
-    border: 5px solid black;
-    margin: 0;
+    border: 1px solid black;
+    margin: 5px;
     padding: 0;
-    width: 310px;
     height: 10%;
     display: flex;
 }
 
 .card_title_name {
-    width: 80%;
+    width: 100%;
 }
 
 .card_title_name p {
@@ -22,11 +32,107 @@
     font-size: 40px;
     padding: 0;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-.card_image img {
-    width: 300px;
+.card_image {
+    display: flex;
+    height: 55%;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.card_image_name {
+    border: 1px solid black;
+    height: 95%;
+    width: 20%;
+    margin: 5px;
+}
+
+.card_image_name img {
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.card_image_name p {
+    writing-mode: vertical-rl;
+    text-orientation:upright;
     margin: auto;
+    padding: 10px;
+    padding-top: 20px;
+    height: 60%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card_image_skill {
+    border: 1px solid black;
+    height: 95%;
+    margin: 5px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_image_skill img {
+    height: 95%;
+    margin: 5px;
+}
+
+.card_descrition {
+    margin: 5px;
+    border: 1px solid black;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_descrition p {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
     padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card_star_one img,
+.card_star_two img,
+.card_star_three img {
+    width: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    top: 333px;
+    left: 135px;
+}
+
+.two_1 {
+    top: 333px;
+    left: 120px;
+}
+
+.two_2 {
+    top: 333px;
+    left: 150px;
+}
+
+.three_1 {
+    top: 333px;
+    left: 100px;
+}
+
+.three_2 {
+    top: 333px;
+    left: 130px;
+}
+
+.three_3 {
+    top: 333px;
+    left: 160px;
 }
