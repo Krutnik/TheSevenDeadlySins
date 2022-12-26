@@ -109,11 +109,23 @@ p {
 }
 
 .black {
-        background-color: black;
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
 }
 
 .green {
-        background-color: green
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
 }
 
 .char_card {

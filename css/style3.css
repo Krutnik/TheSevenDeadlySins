@@ -1,0 +1,41 @@
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.ability {
+    display: flex;
+    flex-direction: row;
+}
+
+.skill {
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.skill img {
+    border-radius: 50%;
+}
+
+.skill p { 
+    margin-left: 10px;
+}
+
+.baff {
+    background-color: DodgerBlue;
+}
+.block {
+    background-color: Goldenrod;
+}
+.debaff {
+    background-color: IndianRed;
+}
