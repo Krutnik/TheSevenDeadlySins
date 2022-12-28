@@ -1,3 +1,8 @@
+p {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+
 .all_card {
     display: flex;
     flex-direction: row;
@@ -56,6 +61,7 @@
 
 .card_image_name {
     border: 1px solid black;
+    border-radius: 10px;
     height: 95%;
     width: 20%;
     margin: 5px;
@@ -71,10 +77,12 @@
 
 .card_image_name p {
     writing-mode: vertical-rl;
-    text-orientation:upright;
+    text-orientation: upright;
+    letter-spacing: -5px;
     margin: auto;
     font-size: 14px;
     font-weight: bold;
+    font-style: normal;
 }
 
 .card_image_skill {
@@ -83,11 +91,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .card_image_skill img {
     height: 95%;
     margin: 5px;
+    border-radius: 10px;
 }
 
 .card_descrition {
@@ -154,4 +164,8 @@
 .super {
     width: 30px;
     height: 30px;
+}
+
+.min {
+    font-size: 17px !important;
 }
