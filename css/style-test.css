@@ -1,0 +1,327 @@
+p {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+img {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+.all_card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.card_one,
+.card_two,
+.card_three {
+    border: 5px solid black;
+    width: 210px;
+    height: 315px;
+    margin-right: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card_one {
+    background-color: BurlyWood;
+}
+
+.card_two {
+    background-color: silver;
+}
+
+.three_title,
+.card_star_three,
+.three_discr,
+.three_4 {
+    background-color: goldenrod;
+}
+
+.card_title {
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    margin: 5px;
+    padding: 0;
+    height: 26px;
+    display: flex;
+}
+
+.card_title_name {
+    width: 100%;
+}
+
+.card_title_name p {
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.card_image {
+    display: flex;
+    height: 175px;
+    margin: 0 5px;
+    border: 1px solid black;
+}
+
+.card_image_name {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_image_name img {
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.card_image_name p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -5px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.card_image_skill {
+    margin: 0 5px 5px 0;
+    height: 100%;
+}
+
+.card_image_skill img {
+    height: 165px;
+    width: 100%;
+    margin: 5px 0 0 0;
+    border-radius: 10px;
+}
+
+.card_descrition {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_descrition p {
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card_star_one img,
+.card_star_two img,
+.card_star_three img {
+    width: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    top: 195px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+.card_two_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.card_two_title p {
+    font-size: 16px;
+}
+
+.card_two_title img {
+    border-radius: 50%;
+}
+
+.card_two_discr {
+    display: flex;
+    flex-direction: row;
+    height: 275px;
+}
+
+.discr_text {
+    border: 1px solid black;
+    border-left: none;
+    width: 27px;
+    height: 100%;
+}
+
+.text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 10px 5px;
+    letter-spacing: -5px;
+}
+
+.image_card {
+    width: 182px;
+    height: 272px;
+    position: relative;
+}
+
+.image_card img {
+    width: 182px;
+    height: 200px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.image_card_dis {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.image_card_dis p {
+    margin-left: 5px;
+}
+
+.card_star_two {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.two_1 {
+    top: 220px;
+    left: -1px;
+}
+
+.two_2 {
+    top: 240px;
+    left: -1px;
+}
+
+
+.new_card_three {
+    background-image: url(/img/meliodas/damage.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 315px;
+}
+
+.new_new {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new_new_2 {
+    height: 100%;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(/img/meliodas/block.jpg);
+    background-repeat: no-repeat;
+    background-size: 210px 230px;
+}
+
+.three_title {
+    width: 210px;
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    border: 1px solid;
+    border-top: none;
+}
+
+.three_title p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+
+.three_discr {
+    width: 210px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three_1 {
+    top: 200px;
+    left: 65px;
+    z-index: 10;
+}
+
+.three_2 {
+    top: 200px;
+    left: 85px;
+    z-index: 11;
+}
+
+.three_3 {
+    top: 200px;
+    left: 105px;
+    z-index: 12;
+}
+
+.three_4 {
+    position: absolute;
+    width: 210px;
+    top: 218px;
+    left: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img_four {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+
+.skill_text {
+    width: 14px;
+    height: 14px;
+}

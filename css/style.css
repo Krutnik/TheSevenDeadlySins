@@ -1,6 +1,7 @@
 p {
     font-family: 'Lobster', cursive;
     letter-spacing: 1px;
+    margin: 0;
 }
 
 .all_card {
@@ -34,9 +35,10 @@ p {
 
 .card_title {
     border: 1px solid black;
+    border-radius: 5px 5px 0 0;
     margin: 5px;
     padding: 0;
-    height: 10%;
+    height: 26px;
     display: flex;
 }
 
@@ -49,20 +51,18 @@ p {
     font-size: 20px;
     padding: 0;
     margin: 0;
-    margin-top: 5px;
 }
 
 .card_image {
     display: flex;
-    height: 55%;
-    margin: 5px;
+    height: 175px;
+    margin: 0 5px;
     border: 1px solid black;
 }
 
 .card_image_name {
     border: 1px solid black;
     border-radius: 10px;
-    height: 95%;
     width: 20%;
     margin: 5px;
     display: flex;
@@ -86,24 +86,22 @@ p {
 }
 
 .card_image_skill {
+    margin: 0 5px 5px 0;
     height: 100%;
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
 }
 
 .card_image_skill img {
-    height: 95%;
-    margin: 5px;
+    height: 165px;
+    width: 100%;
+    margin: 5px 0 0 0;
     border-radius: 10px;
 }
 
 .card_descrition {
     margin: 5px;
     border: 1px solid black;
-    height: 27%;
+    border-radius: 0 0 5px 5px;
+    height: 28%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -118,43 +116,48 @@ p {
     margin-bottom: auto;
 }
 
+.card_descrition_image {
+    width: 14px;
+    height: 14px;
+}
+
 .card_star_one img,
 .card_star_two img,
 .card_star_three img {
-    width: 50px;
+    width: 30px;
     position: absolute;
     display: flex;
     flex-direction: row;
 }
 
 .one {
-    top: 200px;
-    left: 80px;
+    top: 190px;
+    left: 108px;
 }
 
 .two_1 {
-    top: 200px;
-    left: 65px;
+    top: 190px;
+    left: 100px;
 }
 
 .two_2 {
-    top: 200px;
-    left: 95px;
+    top: 190px;
+    left: 120px;
 }
 
 .three_1 {
-    top: 200px;
-    left: 50px;
+    top: 190px;
+    left: 90px;
 }
 
 .three_2 {
-    top: 200px;
-    left: 80px;
+    top: 190px;
+    left:110px;
 }
 
 .three_3 {
-    top: 200px;
-    left: 110px;
+    top: 190px;
+    left: 130px;
 }
 
 .super_damage {
@@ -168,4 +171,13 @@ p {
 
 .min {
     font-size: 17px !important;
+}
+
+.text_cen {
+    align-items: center;
+}
+
+.min_img {
+    width: 14px;
+    height: 14px;
 }

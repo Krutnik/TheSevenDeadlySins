@@ -20,7 +20,7 @@ p {
 .char {
     border: 1px solid black;
     width: 500px;
-    height: 600px;
+    height: 650px;
     margin: 5px;
     background-color: khaki;
     border-radius: 10px;
@@ -159,4 +159,12 @@ p {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 10px;
+}
+
+p .card_descrition_image {
+    width: 14px;
+    height: 14px;
+    border: none;
+    margin: 0;
+    border-radius: 0;
 }
