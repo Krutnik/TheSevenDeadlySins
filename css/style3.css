@@ -11,27 +11,26 @@ p {
 }
 
 .skill {
-    border: 1px solid black;
-    padding: 5px;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
     margin-right: 5px;
     margin-bottom: 5px;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 30px;
-    border-radius: 10px;
+    justify-content: center; */
+    width: 50px;
+    height: 50px;
+    /* border-radius: 10px; */
 }
 
 .skill img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    width: 50px;
+    height: 50px;
 }
 
-.skill p { 
-    margin-left: 10px;
-}
-
-.baff {
+/* .baff {
     background-color: DodgerBlue;
 }
 .block {
@@ -39,4 +38,4 @@ p {
 }
 .debaff {
     background-color: IndianRed;
-}
+} */
